@@ -1,0 +1,29 @@
+{
+	"manifest_version": 2,
+	"name": "Proofskip",
+	"version": "0.9",
+	"description": "Decode and bypass proofpoint links automatically",
+
+	"permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"contextMenus",
+		"activeTab",
+		"clipboardWrite",
+		"*://urldefense.com/*",
+		"*://urldefense.proofpoint.com/*"
+	],
+
+	"background": {
+		"scripts": [
+			"browser-polyfill.js",
+			"he.js",
+			"proofskip.js"
+		]
+	},
+
+	"web_accessible_resources": [
+		"error.html",
+		"error.js"
+	]
+}
