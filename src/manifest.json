@@ -4,6 +4,12 @@
 	"version": "0.9",
 	"description": "Decode and bypass proofpoint links automatically",
 
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "{bdd3312a-1868-466f-92d5-29899d05d4f9}"
+		}
+	},
+
 	"permissions": [
 		"webRequest",
 		"webRequestBlocking",
